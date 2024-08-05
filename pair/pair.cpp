@@ -7,6 +7,7 @@ int main(){
         cin>>first>>secound;
         a[i]=make_pair(first,secound);
     }
+    
     for(const auto m:a){
         cout<<m.first<<" "<<m.second<<endl;
     }
